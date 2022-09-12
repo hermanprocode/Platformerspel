@@ -368,7 +368,6 @@ function startgame() {
         );
         y += dy;
         dy = 0;
-        dashUsed = false;
       }
       block_left = checkLeft(solids[level], x);
       if (
